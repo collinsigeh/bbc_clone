@@ -2,8 +2,77 @@
 <html>
     <head>
         <title>BBC Clone with HTML5 and CSS</title>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet"> 
+
+        <style type="text/css">
+            body{
+                margin: 0;
+                padding: 0;
+                color: #151515;
+                font-family: 'PT Sans', sans-serif;
+                font-size: 14px;
+                letter-spacing: 0.5px;
+            }
+            .container{
+                margin: 0 auto;
+                max-width: 1200px;
+            }
+            #page-logo{
+                width: 80px;
+                float: left;
+            }
+            #user{
+                float: left;
+                padding: 10px;
+                padding-bottom: 6px;
+                border-bottom: 4px solid #fff;
+            }
+            #user-image{
+                float: left;
+            }
+            #user-name{
+                float: left;
+                padding-top: 2px;
+                padding-left: 5px;
+            }
+            #user:hover{
+                border-bottom: 4px solid #B40404;
+            }
+            a:link{
+                color: #151515;
+            }
+            #navbar-links{
+                float: left;
+            }
+            .navbar-link-item{
+                color: #151515;
+                text-decoration: none;
+            }
+        </style>
     </head>
     <body>
-        It all goes down here!
+        <div id="nav-bar" class="container">
+            <a href="#">
+                <img src="index.png" alt="BBC" id="page-logo">
+            </a>
+            
+            <a href="#">
+                <div id="user">
+                    <img src="default_user.png" alt="" id="user-image">
+    
+                    <div id="user-name">Sign in</div>
+                </div>
+            </a>
+
+            <div #="navbar-links">
+                <a href="#">
+                    <div class="navbar-link-item">
+                        Home
+                    </div>
+                </a>
+            </div>
+        </div>
     </body>
 </html>
