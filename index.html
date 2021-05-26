@@ -10,68 +10,48 @@
             body{
                 margin: 0;
                 padding: 0;
-                color: #151515;
-                font-family: 'PT Sans', sans-serif;
-                font-size: 14px;
-                letter-spacing: 0.5px;
+                font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
             }
-            .container{
+
+            #topbar{
+                width: 1200px;
                 margin: 0 auto;
-                max-width: 1200px;
             }
-            #page-logo{
+
+            #logo{
                 width: 80px;
+                margin-top: 8px;
+                margin-right: 8px;
                 float: left;
             }
-            #user{
+
+            .topbar-section{
                 float: left;
-                padding: 10px;
-                padding-bottom: 6px;
-                border-bottom: 4px solid #fff;
+                border-left: 1px solid #ccc;
+                height: 100%;
             }
-            #user-image{
-                float: left;
-            }
-            #user-name{
-                float: left;
-                padding-top: 2px;
-                padding-left: 5px;
-            }
-            #user:hover{
-                border-bottom: 4px solid #B40404;
-            }
-            a:link{
-                color: #151515;
-            }
-            #navbar-links{
+
+            #signin-image{
+                width: 20px;
+                margin: 10px 12px;
                 float: left;
             }
-            .navbar-link-item{
-                color: #151515;
-                text-decoration: none;
+
+            #signin-text{
+                font-size: 90%;
+                position: relative;
+                top: 12px;
             }
         </style>
     </head>
     <body>
-        <div id="nav-bar" class="container">
-            <a href="#">
-                <img src="index.png" alt="BBC" id="page-logo">
-            </a>
-            
-            <a href="#">
-                <div id="user">
-                    <img src="default_user.png" alt="" id="user-image">
-    
-                    <div id="user-name">Sign in</div>
-                </div>
-            </a>
+        <div id="topbar">
+            <img id="logo" src="logo.png" alt="">
 
-            <div #="navbar-links">
-                <a href="#">
-                    <div class="navbar-link-item">
-                        Home
-                    </div>
-                </a>
+            <div id="signin-div" class="topbar-section">
+                <img id="signin-image" src="signinimage.png" alt="">
+
+                <span id="signin-text">Sign in</span>
             </div>
         </div>
     </body>
