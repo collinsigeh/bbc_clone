@@ -13,7 +13,7 @@
                 font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
             }
 
-            #topbar{
+            .container{
                 width: 1300px;
                 margin: 0 auto;
             }
@@ -57,7 +57,7 @@
             }
 
             .nav-search{
-                padding: 7px 20px;
+                padding: 9px 20px;
             }
 
             #search-box{
@@ -72,61 +72,218 @@
             #search-icon{
                 float: left;
             }
+
+            .clearfix{
+                clear: both;
+            }
+
+            #pagetitle-bar{
+                background-color: #BB1919;
+                padding: 2px 0 28px 0;
+            }
+
+            #page-title{
+                font-weight: 400;
+                font-size: 40px;
+                color: #fff;
+            }
+
+            .page-nav{
+                color: #fff;
+                font-size: 80%;
+                float: left;
+            }
+
+            #first-page-nav{
+                padding-right: 15px;
+            }
+
+            .more-page-nav{
+                border-left: 1px solid #a3a3a3;
+                padding: 0 15px;
+            }
+
+            #dropdown-icon2{
+                padding-top: 1px;
+            }
+
+            #active-page{
+                padding-bottom: 5px;
+                border-bottom: 4px solid #fff;
+            }
+
+            h2{
+                font-weight: 400;
+                font-size: 21px;
+                border-bottom: 3px solid #BB1919;
+                width: 45px;
+                padding-bottom: 5px;
+            }
+
+            #main-google-ad{
+                text-align: center;
+            }
+
+            a:link{
+                text-decoration: none;
+            }
+
+            .topbar-section a{
+                color: #000;
+            }
+
+            .nav-menu a:hover{
+                border-bottom: 4px solid #BB1919;
+            }
+
+            .page-nav a{
+                color: #fff;
+            }
+
+            .page-nav a:hover{
+                padding-bottom: 5px;
+                border-bottom: 4px solid #fff;
+            }
+
         </style>
     </head>
     <body>
-        <div id="topbar">
+        <div id="topbar" class="container">
             <img id="logo" src="logo.png" alt="">
 
             <div id="signin-div" class="topbar-section">
-                <img id="signin-image" src="signinimage.png" alt="">
-
-                <span id="signin-text">Sign in</span>
+                <a href="">
+                    <img id="signin-image" src="signinimage.png" alt="">
+    
+                    <span id="signin-text">Sign in</span>
+                </a>
             </div>
 
             <div class="topbar-section nav-menu">
-                Home
+                <a href="">Home</a>
             </div>
 
             <div class="topbar-section nav-menu">
-                News
+                <a href="">News</a>
             </div>
 
             <div class="topbar-section nav-menu">
-                Sport
+                <a href="">Sport</a>
             </div>
 
             <div class="topbar-section nav-menu">
-                Real
+                <a href="">Real</a>
             </div>
 
             <div class="topbar-section nav-menu">
-                Worklife
+                <a href="">Worklife</a>
             </div>
 
             <div class="topbar-section nav-menu">
-                Travel
+                <a href="">Travel</a>
             </div>
 
             <div class="topbar-section nav-menu">
-                Future
+                <a href="">Future</a>
             </div>
 
             <div class="topbar-section nav-menu">
-                Culture
+                <a href="">Culture</a>
             </div>
 
             <div class="topbar-section nav-menu">
-                More
+                <a href="">
+                    More
 
-                <img id="dropdown-icon" src="dropdown-icon.png" alt="">
+                    <img id="dropdown-icon" src="dropdown-icon.png" alt="">
+                </a>
             </div>
 
             <div class="topbar-section nav-search">
                 <input id="search-box" type="text" value="Search">
 
-                <img id="search-icon" src="search-icon.png" alt="">
+                <input type="image" id="search-icon" src="search-icon.png" alt="">
             </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div id="pagetitle-bar">
+            <div class="container">
+                <h1 id="page-title">NEWS</h1>
+
+                <div id="first-page-nav" class="page-nav">
+                    <a href="">Home</a>
+                </div>
+
+                <div class="page-nav more-page-nav">
+                    <a href="">Coronavirus</a>
+                </div>
+
+                <div class="page-nav more-page-nav">
+                    <a href="">Video</a>
+                </div>
+
+                <div class="page-nav more-page-nav">
+                    <a href="">World</a>
+                </div>
+
+                <div class="page-nav more-page-nav">
+                    <a href="">UK</a>
+                </div>
+
+                <div class="page-nav more-page-nav">
+                    <a href="">Business</a>
+                </div>
+
+                <div id="active-page" class="page-nav more-page-nav">
+                    <a href="">Tech</a>
+                </div>
+
+                <div class="page-nav more-page-nav">
+                    <a href="">Science</a>
+                </div>
+
+                <div class="page-nav more-page-nav">
+                    <a href="">Stories</a>
+                </div>
+
+                <div class="page-nav more-page-nav">
+                    Entertainment &amp; Arts
+                </div>
+
+                <div class="page-nav more-page-nav">
+                    <a href="">Health</a>
+                </div>
+
+                <div class="page-nav more-page-nav">
+                    <a href="">Wrold News TV</a>
+                </div>
+
+                <div class="page-nav more-page-nav">
+                    <a href="">In Pictures</a>
+                </div>
+
+                <div class="page-nav more-page-nav">
+                    <a href="">Reality Check</a>
+                </div>
+
+                <div class="page-nav more-page-nav">
+                    <a href="">
+                        More
+
+                        <img id="dropdown-icon2" src="dropdown-icon2.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>Tech</h2>
+        </div>
+
+        <div id="main-google-ad">
+            <img src="google-ad.png" alt="">
         </div>
     </body>
 </html>
