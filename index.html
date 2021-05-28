@@ -150,6 +150,20 @@
                 width: 950px;
             }
 
+            #main-news a{
+                color: #000;
+            }
+
+            #main-news h3:hover{
+                text-decoration: underline;
+                color: rgb(46, 149, 209) !important;
+            }
+
+            .older-main-news h4:hover{
+                text-decoration: underline;
+                color: rgb(46, 149, 209) !important;
+            }
+
             #google-ad2{
                 float: left;
                 width: 350px;
@@ -196,14 +210,20 @@
                 margin-left: 5px;
             }
 
-            ul{
+            .category a:hover{
+                text-decoration: underline;
+                color: rgb(46, 149, 209) !important;
+            }
+
+            .added-latest-news{
                 position: relative;
-                left: 20px;
+                top: -30px;
+                left: 40px;
             }
 
             li{
                 font-weight: bold;
-                padding: 10px 30px 0 0;
+                padding: 10px 40px 0 0;
             }
 
             h4{
@@ -220,6 +240,13 @@
             .last-row-item{
                 margin-right: 0;
             }
+
+            .added-latest-news li a:hover{
+                text-decoration: underline;
+                color: rgb(46, 149, 209) !important;
+            }
+
+
 
         </style>
     </head>
@@ -361,31 +388,37 @@
         </div>
 
         <div id="main-google-ad">
-            <img src="google-ad.png" alt="">
+            <a href="">
+                <img src="google-ad.png" alt="">
+            </a>
         </div>
 
         <div class="container">
             <div id="main-news">
                 <div id="latest-main-news">
-                    <img src="ai.png" alt="">
-
-                    <div id="content-latest-news">
-                        <h3>AI emotion-detection software tested on Uyghturs</h3>
+                    <a href="">
+                        <img src="ai.png" alt="">
     
-                        <p>A software engineer tells BBC's Panorama about installing the system in police stations in Xinjiang.</p>
+                        <div id="content-latest-news">
+                            <h3>AI emotion-detection software tested on Uyghturs</h3>
+        
+                            <p>A software engineer tells BBC's Panorama about installing the system in police stations in Xinjiang.</p>
+        
+                            <div class="new-info">
+                                <img class="clock-icon" src="clock.png" alt=""> 
     
-                        <div class="new-info">
-                            <img class="clock-icon" src="clock.png" alt=""> 
-
-                            <span class="time">12h</span>
-    
-                            <span class="category">Technology</span>
-
-                            <ul>
-                                <li>The cost of speaking up against china</li>
-                                <li>Uighur camp detainee allege systematic rape</li>
-                            </ul>
+                                <span class="time">12h</span>
+        
+                                <span class="category">Technology</span>
+                            </div>
                         </div>
+                    </a>
+
+                    <div class="added-latest-news">
+                        <ul>
+                            <li><a href="">The cost of speaking up against china</a></li>
+                            <li><a href="">Uighur camp detainee allege systematic rape</a></li>
+                        </ul>
                     </div>
                 </div>
 
@@ -393,117 +426,131 @@
                 
                 <div class="older-news-container">
                     <div class="older-main-news">
-                        <img src="whatsapp.png" alt="">
-    
-                        <h4>WhatsApp goes to court over India privacy rules</h4>
-    
-                        <p>
-                            WhatsApp says India's new digital media rules will violate the privacy of its users.
-                        </p>
+                        <a href="">
+                            <img src="whatsapp.png" alt="">
+        
+                            <h4>WhatsApp goes to court over India privacy rules</h4>
+        
+                            <p>
+                                WhatsApp says India's new digital media rules will violate the privacy of its users.
+                            </p>
+                        </a>
     
                         <div class="new-info">
                             <img class="clock-icon" src="clock.png" alt=""> 
     
                             <span class="time">1h</span>
     
-                            <span class="category">India</span>
+                            <span class="category"><a href="">India</a></span>
                         </div>
                     </div>
     
                     <div class="older-main-news">
-                        <img src="irresponsible-bitcoin.png" alt="">
-    
-                        <h4>&lsquo;Irrsponsible&rsquo; buy Bitcoin advert banned</h4>
-    
-                        <p>
-                            Cryptocurrency exchange Luno rapped by the ASA  for targeting experienced consumers
-                        </p>
+                        <a href="">
+                            <img src="irresponsible-bitcoin.png" alt="">
+        
+                            <h4>&lsquo;Irrsponsible&rsquo; buy Bitcoin advert banned</h4>
+        
+                            <p>
+                                Cryptocurrency exchange Luno rapped by the ASA  for targeting experienced consumers
+                            </p>
+                        </a>
     
                         <div class="new-info">
                             <img class="clock-icon" src="clock.png" alt=""> 
     
                             <span class="time">1h</span>
     
-                            <span class="category">Business</span>
+                            <span class="category"><a href="">Business</a></span>
                         </div>
                     </div>
     
                     <div class="older-main-news last-row-item">
-                        <img src="bitcoin.png" alt="">
-    
-                        <h4>Bitcoin minning council to report green energy usage</h4>
-    
-                        <p>
-                            The Tesla CEO and a group of bitcoin minners hope to improve the currencies sustainability.
-                        </p>
+                        <a href="">
+                            <img src="bitcoin.png" alt="">
+        
+                            <h4>Bitcoin minning council to report green energy usage</h4>
+        
+                            <p>
+                                The Tesla CEO and a group of bitcoin minners hope to improve the currencies sustainability.
+                            </p>
+                        </a>
     
                         <div class="new-info">
                             <img class="clock-icon" src="clock.png" alt=""> 
     
                             <span class="time">20h</span>
     
-                            <span class="category">Technology</span>
+                            <span class="category"><a href="">Technology</a></span>
                         </div>
                     </div>
                     
                     <div class="older-main-news">
-                        <img src="amazon.png" alt="">
-    
-                        <h4>Amazon sued over pricing policy by Washington DC</h4>
-    
-                        <p>
-                            The Washington DC Artoney General said on Tuesday it was suing the firm over competition concerns.
-                        </p>
+                        <a href="">
+                            <img src="amazon.png" alt="">
+        
+                            <h4>Amazon sued over pricing policy by Washington DC</h4>
+        
+                            <p>
+                                The Washington DC Artoney General said on Tuesday it was suing the firm over competition concerns.
+                            </p>
+                        </a>
     
                         <div class="new-info">
                             <img class="clock-icon" src="clock.png" alt=""> 
     
                             <span class="time">14h</span>
     
-                            <span class="category">Business</span>
+                            <span class="category"><a href="">Business</a></span>
                         </div>
                     </div>
     
                     <div class="older-main-news">
-                        <img src="russia-google.png" alt="">
-    
-                        <h4>Russia gives Google deadline over &lsquo;banned content&rsquo;</h4>
-    
-                        <p>
-                            The countries media watchdog says it will slow down internet speeds to the site if the content is not deleted.
-                        </p>
+                        <a href="">
+                            <img src="russia-google.png" alt="">
+        
+                            <h4>Russia gives Google deadline over &lsquo;banned content&rsquo;</h4>
+        
+                            <p>
+                                The countries media watchdog says it will slow down internet speeds to the site if the content is not deleted.
+                            </p>
+                        </a>
     
                         <div class="new-info">
                             <img class="clock-icon" src="clock.png" alt=""> 
     
                             <span class="time">19h</span>
     
-                            <span class="category">Technology</span>
+                            <span class="category"><a href="">Technology</a></span>
                         </div>
                     </div>
     
                     <div class="older-main-news last-row-item">
-                        <img src="tesla.png" alt="">
-    
-                        <h4>Tesla fined in Norway over battery issues</h4>
-    
-                        <p>
-                            A court has ruled that the car giant must pay &pound;11&comma;500 to each complianant.
-                        </p>
+                        <a href="">
+                            <img src="tesla.png" alt="">
+        
+                            <h4>Tesla fined in Norway over battery issues</h4>
+        
+                            <p>
+                                A court has ruled that the car giant must pay &pound;11&comma;500 to each complianant.
+                            </p>
+                        </a>
     
                         <div class="new-info">
                             <img class="clock-icon" src="clock.png" alt=""> 
     
                             <span class="time">1d</span>
     
-                            <span class="category">Technology</span>
+                            <span class="category"><a href="">Technology</a></span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div id="google-ad2">
-                <img src="google-ad2.png" alt="">
+                <a href="">
+                    <img src="google-ad2.png" alt="">
+                </a>
             </div>
         </div>
 
