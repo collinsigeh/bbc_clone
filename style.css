@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#logo{
+    width: 80px;
+    margin-top: 8px;
+    margin-right: 8px;
+    float: left;
+}
+
+.topbar-section{
+    float: left;
+    border-left: 1px solid #ccc;
+    height: 100%;
+}
+
+#signin-image{
+    width: 20px;
+    margin: 10px 12px;
+    float: left;
+}
+
+#signin-text{
+    font-size: 90%;
+    font-weight: bold;
+    position: relative;
+    top: 12px;
+    margin-right: 45px;
+}
+
+.nav-menu{
+    font-size: 90%;
+    font-weight: bold;
+    padding: 12px 20px;
+}
+
+#dropdown-icon{
+    padding-top: 2px;
+    padding-left: 25px;
+}
+
+.nav-search{
+    padding: 9px 20px;
+}
+
+#search-box{
+    background-color: #E4E4E4;
+    border: none;
+    font-weight: bold;
+    padding: 4px 5px;
+    margin-right: 0;
+    float: left;
+}
+
+#search-icon{
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#pagetitle-bar{
+    background-color: #BB1919;
+    padding: 2px 0 28px 0;
+}
+
+#page-title{
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+}
+
+.page-nav{
+    color: #fff;
+    font-size: 80%;
+    float: left;
+}
+
+#first-page-nav{
+    padding-right: 15px;
+}
+
+.more-page-nav{
+    border-left: 1px solid #a3a3a3;
+    padding: 0 15px;
+}
+
+#dropdown-icon2{
+    padding-top: 1px;
+}
+
+#active-page{
+    padding-bottom: 5px;
+    border-bottom: 4px solid #fff;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 21px;
+    border-bottom: 3px solid #BB1919;
+    width: 45px;
+    padding-bottom: 5px;
+}
+
+#main-google-ad{
+    text-align: center;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.topbar-section a{
+    color: #000;
+}
+
+.nav-menu a:hover{
+    border-bottom: 4px solid #BB1919;
+}
+
+.page-nav a{
+    color: #fff;
+}
+
+.page-nav a:hover{
+    padding-bottom: 5px;
+    border-bottom: 4px solid #fff;
+}
+
+#main-news{
+    float: left;
+    width: 950px;
+}
+
+#main-news a{
+    color: #000;
+}
+
+#main-news h3:hover{
+    text-decoration: underline;
+    color: rgb(46, 149, 209) !important;
+}
+
+.older-main-news h4:hover{
+    text-decoration: underline;
+    color: rgb(46, 149, 209) !important;
+}
+
+#google-ad2{
+    float: left;
+    width: 350px;
+}
+
+#latest-main-news img{
+    float: left;
+}
+
+#content-latest-news{
+    position: relative;
+    left: 20px;
+    padding: 1px 30px 20px 20px;
+}
+
+h3{
+    font-size: 30px;
+    line-height: 1.2em;
+}
+
+p{
+    font-size: 85%;
+    line-height: 1.5em;
+}
+
+#content-latest-news p{
+    margin-top: -25px;
+}
+
+.clock-icon{
+    position: relative;
+    top: 2px;
+    margin-right: 3px;
+}
+
+.time{
+    font-size: 90%;
+}
+
+.category{
+    font-size: 90%;
+    border-left: 1px solid #666;
+    padding-left: 7px;
+    margin-left: 5px;
+}
+
+.category a:hover{
+    text-decoration: underline;
+    color: rgb(46, 149, 209) !important;
+}
+
+.added-latest-news{
+    position: relative;
+    top: -30px;
+    left: 40px;
+}
+
+li{
+    font-weight: bold;
+    padding: 10px 40px 0 0;
+}
+
+h4{
+    margin-top: 2px;
+    font-size: 16px;
+}
+
+.older-main-news{
+    width: 300px;
+    float: left;
+    margin: 0 20px 30px 0;
+}
+
+.last-row-item{
+    margin-right: 0;
+}
+
+.added-latest-news li a:hover{
+    text-decoration: underline;
+    color: rgb(46, 149, 209) !important;
+}
